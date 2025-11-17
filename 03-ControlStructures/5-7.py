@@ -9,10 +9,19 @@ import time
 countdown = int(input("Enter the number of seconds to count down: "))
 
 while countdown > 0:
-    if
-    print(countdown)
     countdown -= 1
     time.sleep(1)  # Wait for 1 second
- 
+    if countdown > 5:
+        print(countdown)
+    if countdown == 5:
+        print('five')
+    if countdown == 4:
+        print('four')
+    if countdown == 3:
+        print('three')
+    if countdown == 2:
+        print('two')
+    if countdown == 1:  
+        print('one')
 
 print("Time's up!")
