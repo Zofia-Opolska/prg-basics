@@ -1,19 +1,29 @@
-def month(n):
-        arr=[
-        'Styczeń',
-        'Luty',
-        'Marzec',
-        'Kwiecień',
-        'Maj',
-        'Czerwiec',
-        'Lipiec',
-        'Sierpień',
-        'Wrzesień',
-        'Październik',
-        'Listopad',
-        'Grudzień'
-    ]
-        if n==1:
-            return arr[0]
-        
-print(month(1))
+a'
+b'
+c'
+d'
+e'
+f'
+g'
+h'
+i'
+j'
+k'
+l'
+ł'
+m'
+n'
+o'
+ó'
+p'
+q'
+r'
+s'
+t'
+u'
+w'
+x'
+y'
+z'
+ź'
+ż'
