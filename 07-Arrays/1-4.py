@@ -12,6 +12,7 @@ print(arr[len(arr)-1])
 print(arr[len(arr)-2])
 print('Sum of 1st and last valu is', arr[0]+arr[-1])
 print('Middle value is', arr[2]) # czy jest na to jakis inny sposob?
+
 #nwm ocs takiego?
 for i in arr:
     print(i)
