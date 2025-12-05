@@ -1,2 +1,4 @@
 with open("pets.txt") as file:
-    x = split.("pets.txt")
+    content = file.read()
+    list_of_words= content.split()
+    print(len(list_of_words))
