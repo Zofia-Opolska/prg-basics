@@ -8,8 +8,8 @@ polish_license_plates = [
 ]
 counter = 1
 for car_number in polish_license_plates:
-   if car_number ...:
-      print(counter, ...)
+   if car_number :
+      print(counter, car_number)
       counter += 1
 
 
