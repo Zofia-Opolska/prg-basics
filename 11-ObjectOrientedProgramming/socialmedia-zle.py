@@ -20,6 +20,6 @@ content_3 = "What's up, Natalie? How are you?"
 profil.add_post(content_1)
 profil.add_post(content_2)
 profil.add_post(content_3)
-profil.print_posts()
+profil.display_timeline()
 
     
