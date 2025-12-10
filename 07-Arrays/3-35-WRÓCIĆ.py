@@ -19,8 +19,6 @@ def print_matrix(arr):
         print()
     print()   
 
-
-
 A = [
     [1, 2, 3],
     [4, 5, 6],
