@@ -2,31 +2,33 @@ person = {
    "name": "Marek",
    "surname": "Banach",
    "age": 25,
-   "hobby": ["swimming","excursions"],
+   "hobby": ["swimming","running"],
    "married": True,
    "phone":{"landline":"123444321","mobile":"777888999"}
 }
 
-print(person["name"])
-print(person["hobby"])
-print(person)
-person["surname"]="Nowak"
-print(person["surname"])
-person["married"]=False
-print(person["married"])
-person["gnder"]="male"
-person["hobby"].append("bicycle")
-print(person["hobby"])
-person["phone"]["work"]='313131444'
-print(person["phone"])
+# print(person["name"])
 
-# Then, create a program that:
-# Displays name
-# Displays hobby
-# Displays the entire contents of the dictionary
-# Changes surname to 'Nowak'
-# Changes person's marriage status
-# Adds gender: 'male'
-# Adds a new hobby: 'bicycle'
-# Adds work phone to existing phones: '313131444'
-# Displays the entire contents of the dictionary (iterate over dictionary items)
+# print(person["hobby"])
+
+# for key,value in person.items():
+#     print(f'{key}:{value}')
+
+# print(person['surname'])
+# person['surname']='Nowak'
+# print(person['surname'])
+
+# person["married"]=False
+# print(person["married"])
+
+# person['gender']='male'
+# print(person['gender'])
+
+# person["hobby"].append('bicycle')
+# print(person["hobby"])
+
+# person["phone"]['work phone']='313131444'
+# print(person["phone"])
+
+# for key,value in person.items():
+#     print(f'{key}:{value}')
