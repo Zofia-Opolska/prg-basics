@@ -3,6 +3,8 @@ Apply the Bubble Sort sorting algorithm.
 Define a function bubblesort(array) that returns the sorted array. 
 Try to sort and print any three arrays.'''
 
+#BUBBLE SORTING#
+
 def bs(array):
     n = len(array)
     for i in range(n-1):
