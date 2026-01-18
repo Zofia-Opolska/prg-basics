@@ -1,10 +1,14 @@
 def f(uid):
-    i=0
-    if uid[i] == uid[i+1]:
-        return False
-    else:
-        i+=1
-    return True
+    return len(uid) == len(set(uid))
+
+
+# def f(uid):
+#     i=0
+#     if uid[i] == uid[i+1]:
+#         return False
+#     else:
+#         i+=1
+#     return True
 
 
 
