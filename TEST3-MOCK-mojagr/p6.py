@@ -21,5 +21,5 @@ class C:
     
 
 
-print(C("John","May",21))
-print(C("Anna","Brown",17))
+# print(C("John","May",21))
+# print(C("Anna","Brown",17))

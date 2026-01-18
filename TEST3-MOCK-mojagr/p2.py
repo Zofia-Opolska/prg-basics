@@ -47,14 +47,14 @@ class C:
         else:
             return False
 
-p = C(2, 3)
-print(p.m1())        # 1
-print(p.m2(7, 4))    # True
-print(p.m2(-3, 1))   # False
-print(p.m3(8, 5))    # True
-print(p.m3(4, 7))    # False
+# p = C(2, 3)
+# print(p.m1())        # 1
+# print(p.m2(7, 4))    # True
+# print(p.m2(-3, 1))   # False
+# print(p.m3(8, 5))    # True
+# print(p.m3(4, 7))    # False
 
-p1 = C(0, 5)
-print(p1.m1())       # 0
-print(p1.m2(4, 7))   # False
-print(p1.m2(-7, 0))  # True
+# p1 = C(0, 5)
+# print(p1.m1())       # 0
+# print(p1.m2(4, 7))   # False
+# print(p1.m2(-7, 0))  # True
